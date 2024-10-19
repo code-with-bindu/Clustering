@@ -1,0 +1,25 @@
+{
+   "name": "cluster",
+   "description": "K-means and hierarchical clustering",
+   "version": "0.6.0",
+   "author": "Hima Bindu <Bindureddy469@gmail.com>",
+   "repository": {
+      "type": "git",
+      "url": "http://github.com/code-with-bindu/clustering.git"
+   },
+   "directories": {
+      "lib": "./lib"
+   },
+   "dependencies" : {
+
+   },
+   "devDependencies": {
+      "uglify-js" : "*",
+      "underscore": "*",
+      "nomnom" : "*",
+      "cradle" : "*",
+      "connect": "*",
+      "browserify": "*"
+   },
+   "main": "./lib/clustering"
+}
